@@ -1,0 +1,9 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,Battery_Pads,1,Battery_Cell,
+D1,D_SMA,1,SS34,
+Q2,TO-252-2,1,STD26P3LLH6,
+"R1, R2, R3",0603,3,100k,
+SW1,SW_SPDT_PCM12,1,SW_SPDT,
+U1,TP4056,1,TP4056,
+U2,SuperMini_ESP32C3,1,ESP32C3,
+U3,BMI_LSM,1,BMI/LSM,
