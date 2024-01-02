@@ -7,7 +7,7 @@ readily available modules while still preserving battery life.
 
 The design uses a PCB to mount the parts to, which is placed right on top of
 the battery for minimal height. The final case dimensions, without the strap
-loops end up being around 43x43x15.2 mm or 43x43x13.2 mm.
+loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 
 ## BOM
 
@@ -21,7 +21,7 @@ loops end up being around 43x43x15.2 mm or 43x43x13.2 mm.
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
 | SS34 diode                            |     1 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
 | 0603 100k Ω resistor                  |     3 | [AliExpress](https://www.aliexpress.com/item/1005005677654015.html)\* |
-| STD26P3LLH6 <sup>3</sup>              |     1 | [AliExpress](https://www.aliexpress.com/item/1005005056720962.html)\* |
+| AOD403 <sup>3</sup>                   |     1 | [AliExpress](https://www.aliexpress.com/item/1005004988944417.html)\* |
 | 804040 or 504040 battery <sup>4</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
 
 \*: Link is multi-choice, pay careful attention to which you select
@@ -39,6 +39,12 @@ mosfets, so if you have a different preference with the same pinout, go for it
 capacity at the cost of 3 extra millimeters in height.
 
 Components, including straps cost about $11 per tracker shipped.
+
+> [!TIP]
+> These links only act as examples. They will almost certainly not be the best
+> prices for you, as that depends on where you live and what options you have
+> available to you. If you want to min-max the prices, do search around for
+> better deals. Just make sure you are getting the right components!
 
 > [!TIP]
 > Some components are more prone to arriving dead, like BMI160. Because of this,
