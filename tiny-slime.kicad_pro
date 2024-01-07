@@ -49,10 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "silk_over_copper|140402800|98553914|2343a7ee-f4b7-4061-b812-0cdc991b92ce|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|141274800|118336200|c574e49b-13fd-4132-9b59-70e9e8491823|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
