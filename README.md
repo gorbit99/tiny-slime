@@ -19,9 +19,8 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 | BMI160 <sup>1</sup>                   |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
 | Unprotected TP4056 <sup>2</sup>       |     1 | [AliExpress](https://www.aliexpress.com/item/1005006287954238.html)   |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
-| SS34 diode                            |     1 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
-| 1206 100k Ω resistor                  |     3 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)\* |
-| AOD403                                |     1 | [AliExpress](https://www.aliexpress.com/item/1005004988944417.html)\* |
+| SS34 diode                            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
+| 1206 100k Ω resistor                  |     2 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)\* |
 | 804040 or 504040 battery <sup>3</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
 
 \*: Link is multi-choice, pay careful attention to which you select
