@@ -20,7 +20,7 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 | Unprotected TP4056 <sup>2</sup>       |     1 | [AliExpress](https://www.aliexpress.com/item/1005006287954238.html)   |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
 | SS34 diode                            |     1 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
-| 0603 100k Ω resistor                  |     3 | [AliExpress](https://www.aliexpress.com/item/1005005677654015.html)\* |
+| 1206 100k Ω resistor                  |     3 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)\* |
 | AOD403                                |     1 | [AliExpress](https://www.aliexpress.com/item/1005004988944417.html)\* |
 | 804040 or 504040 battery <sup>3</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
 
@@ -77,5 +77,4 @@ JLCPCB.
 
 If you've done everything correctly, 5 PCBs should cost about $5 while 10 should
 cost about $7 with shipping included. You can of course choose a quicker
-shipping method, but the AliExpress components take more time to arrive on
-average.
+shipping method, but the AliExpress components take more time to arrive.
