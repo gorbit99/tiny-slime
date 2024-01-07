@@ -21,8 +21,8 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
 | SS34 diode                            |     1 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
 | 0603 100k Ω resistor                  |     3 | [AliExpress](https://www.aliexpress.com/item/1005005677654015.html)\* |
-| AOD403 <sup>3</sup>                   |     1 | [AliExpress](https://www.aliexpress.com/item/1005004988944417.html)\* |
-| 804040 or 504040 battery <sup>4</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
+| AOD403                                |     1 | [AliExpress](https://www.aliexpress.com/item/1005004988944417.html)\* |
+| 804040 or 504040 battery <sup>3</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
 
 \*: Link is multi-choice, pay careful attention to which you select
 
@@ -32,10 +32,7 @@ alternatives.
 
 2: For size reasons, the PCB uses specifically unprotected TP4056 modules.
 
-3: This is fairly expensive, theoretically it should work with most P-channel
-mosfets, so if you have a different preference with the same pinout, go for it
-
-4: Battery choice is a trade-off. The 804040 should give you 800 mAh more
+3: Battery choice is a trade-off. The 804040 should give you 800 mAh more
 capacity at the cost of 3 extra millimeters in height.
 
 Components, including straps cost about $11 per tracker shipped.
