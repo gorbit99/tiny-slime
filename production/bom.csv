@@ -1,6 +1,7 @@
-Designator,Footprint,Quantity,Value,LCSC Part #
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
 BT1,Battery_Pads,1,Battery_Cell,
 D1,D_SMA,1,SS34,
+J1,AUX_Pins,1,AUX,
 Q2,TO-252-2,1,AOD403,
 "R1, R2, R3",1206,3,100k,
 SW1,SW_SPDT_PCM12,1,SW_SPDT,
