@@ -1,9 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-BT1,Battery_Pads,1,Battery_Cell,
-"D1, D2",D_SMA,2,SS34,
-J1,AUX_Pins,1,AUX,
-"R2, R3",1206,2,100k,
-SW1,SW_SPDT_PCM12,1,SW_SPDT,
-U1,TP4056,1,TP4056,
-U2,SuperMini_ESP32C3,1,ESP32C3,
-U3,BMI_LSM,1,BMI/LSM,
