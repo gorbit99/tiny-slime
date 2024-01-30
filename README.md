@@ -16,18 +16,19 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 | Tiny Slime PCB                        |     1 | JLCPCB                                                                |
 | Tiny Slime Case                       |     1 | Print Yourself                                                        |
 | Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)   |
-| BMI160 <sup>1</sup>                   |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
-| Unprotected TP4056 <sup>2</sup>       |     1 | [AliExpress](https://www.aliexpress.com/item/1005006287954238.html)   |
+| BMI160                                |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
+| Unprotected TP4056 <sup>1</sup>       |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)\* |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
 | SS34 diode                            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
 | 1206 100k Ω resistor                  |     2 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)\* |
-| 804040 or 504040 battery <sup>3</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
+| 804040 or 504040 battery <sup>2</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005002559604104.html)   |
+
+> [!TIP]
+> The case is compatible with any BMI breakout shaped module. Check out [Meia's
+> IMU store](https://store.kouno.xyz) for some recommended alternatives usable on
+> this board!
 
 \*: Link is multi-choice, pay careful attention to which you select
-
-1: The case is compatible with any BMI breakout shaped module. Check out the
-LSM6DSV or BMI270 breakout boards in the SlimeVR server's marketplace for better
-alternatives.
 
 2: For size reasons, the PCB uses specifically unprotected TP4056 modules.
 
@@ -77,3 +78,7 @@ JLCPCB.
 If you've done everything correctly, 5 PCBs should cost about $5 while 10 should
 cost about $7 with shipping included. You can of course choose a quicker
 shipping method, but the AliExpress components take more time to arrive.
+
+> [!TIP]
+> It's recommended that you purchase more boards than you'd strictly need, since
+> they are fairly cheap and mistakes can easily happen.
