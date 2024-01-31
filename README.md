@@ -9,6 +9,16 @@ The design uses a PCB to mount the parts to, which is placed right on top of
 the battery for minimal height. The final case dimensions, without the strap
 loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 
+## Navigation
+
+- [BOM](#bom)
+- [PCB Ordering](#pcb-ordering)
+- [Tools](#tools)
+- [Soldering](#soldering)
+- [Flashing](#flashing)
+- [Diagnosing problems](#diagnosing-problems)
+- [Case](#case)
+
 ## BOM
 
 | Part                                  | Count | Source                                                                |
@@ -47,6 +57,11 @@ Components, including straps cost about $11 per tracker shipped.
 > Some components are more prone to arriving dead, like BMI160. Because of this,
 > and just to be safe, make sure to get a few extras from everything.
 
+> [!TIP]
+> Some of the links above sell items in packs, rather than individually. For
+> example the resistors come in packs of 100. You don't need more than one of
+> those in your cart.
+
 > [!CAUTION]
 > Since the TP4056 module the PCB is using is unprotected, make sure to only
 > ever pair it with a battery that comes with a protection board. Usually
@@ -82,3 +97,94 @@ shipping method, but the AliExpress components take more time to arrive.
 > [!TIP]
 > It's recommended that you purchase more boards than you'd strictly need, since
 > they are fairly cheap and mistakes can easily happen.
+
+## Tools
+
+There are some tools that will be necessary for putting the tracker together,
+and there are some that are useful to have, even if not strictly necessary.
+
+#### Soldering iron (required)
+
+For a soldering iron, you want something temperature controlled. If you live in
+a country with Amazon, [something like this](https://www.amazon.com/LDK-Soldering-Adjustable-Temperature-Replacement/dp/B083L8BXRC/ref=sr_1_15)
+is a good start. This same iron can be found on AliExpress for about $3, if you
+look for it.
+
+#### Solder wire (required)
+
+If you have soldering wire that came with the iron you have, it's probably not
+great, but it should work in a pinch (I still recommend buying some if you can
+afford it). If you need to buy it new, it's probably worth looking for something
+thinner, 0.5-0.6 mm in diameter. [This is what I generally use](https://www.aliexpress.com/item/1005005621799262.html).
+You can go with leaded or lead-free, but make sure you have decent ventillation
+wherever you work.
+
+#### Tweezers (required)
+
+Some parts on this board are smaller than what most people are used to. To help
+avoid burns and to make the process easier, you should get at least a cheap set
+of tweezers. [Something like this should work](https://www.aliexpress.com/item/1005005633143159.html),
+you mainly want the ones that are either straight and sharp or bent, depends on
+the person, which is easier to work with.
+
+#### Flux (recommended)
+
+Flux is a liquidy paste that helps solder flow better. It's mainly used when you
+need to rework a soldering joint after you've already created it. Theoretically
+it can be substituted by just adding more solder to the joint, since most solder
+wires contain flux, but that's not always a solution. Flux is most commonly
+either in the form of a pen or in the form of a syringe. [This is the one I tend
+to use](https://www.aliexpress.com/item/1005005420936672.html), and it worked
+great for me.
+
+> [!CAUTION]
+> There are certain flux pastes that are made for plumbing. These are corrosive,
+> to help with the oxidization present on pipes. You can recognize these by
+> either reading the label, or often they look like grease (hence their other
+> name, soldering grease). Avoid these!
+
+#### Desoldering wick (recommended)
+
+In a perfect world, we don't make mistakes, but we aren't in that perfect world.
+When you need to desolder something, or potentially clean a pad from solder that
+got on it, the simplest option you have is a desoldering wick, or desoldering
+braid. You want something fairly thin, since that would be easier to heat up.
+[You can start with something like this](https://www.aliexpress.com/item/1005004960109258.html).
+
+#### Desoldering pump (recommended)
+
+Although a desoldering wick is generally enough, another tool you might want to
+have for the job is a desoldering pump. These work by quickly sucking away
+molten solder. It's not as necessary for these sort of components, but it's
+useful in some cases. [Something akin to this](https://www.aliexpress.com/item/1005005623725652.html)
+is what I'd go for.
+
+#### Flush cutters (recommended)
+
+Some flush cutters are needed for some \*modifications\* that I recommend you
+make for an easier soldering process. [Something like this](https://www.aliexpress.com/item/1005005415704038.html).
+They are fairly easy to blunt out, so you might want to buy a couple.
+
+#### PCB cleaning fluid (optional)
+
+After working on a PCB, there might be some gunk on it left over from the
+soldering process. If you care for how the PCB looks, or you want to make sure
+you see the joints better, you might want to invest into some PCB cleaning
+fluid. [I use this]https://www.aliexpress.com/item/1005004419000732.html). These
+are almost always nasty fluids, so make sure you don't breathe them in too much.
+
+## Soldering
+
+To-Do
+
+## Flashing
+
+To-Do
+
+## Diagnosing problems
+
+To-Do
+
+## Case
+
+To-Do
