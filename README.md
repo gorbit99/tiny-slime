@@ -156,9 +156,9 @@ soldering iron. To get it off, you can use a damp soldering sponge, or a brass
 sponge. The former is quite a bit cheaper, you can get [5 or 10 for less than a
 dollar](https://www.aliexpress.com/item/1005005601077918.html), though it will
 theoretically damage your soldering tip a tiny bit more than the other option.
-[The other option](https://www.aliexpress.com/item/1005005256184789.html) is
-more expensive, but avoids this slight damage a bit better and are generally a
-bit quicker to use.
+[Brass sponges](https://www.aliexpress.com/item/1005005256184789.html) are more
+expensive, but avoids this slight damage a bit better and are generally a bit
+quicker to use.
 
 #### Desoldering wick (recommended)
 
@@ -198,7 +198,7 @@ work, but they are also fairly cheap to buy in your local hardware store.
 After working on a PCB, there might be some gunk on it left over from the
 soldering process. If you care for how the PCB looks, or you want to make sure
 you see the joints better, you might want to invest into some PCB cleaning
-fluid. [I use this]https://www.aliexpress.com/item/1005004419000732.html). These
+fluid. [I use this](https://www.aliexpress.com/item/1005004419000732.html). These
 are almost always nasty fluids, so make sure you don't breathe them in too much.
 
 ## Soldering
