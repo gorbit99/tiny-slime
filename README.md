@@ -203,11 +203,216 @@ are almost always nasty fluids, so make sure you don't breathe them in too much.
 
 ## Soldering
 
-To-Do
+> [!NOTE]
+> This part of the guide is incomplete. I'll update it with photos and videos of
+> the process once I make them.
+
+Soldering the board is a fairly simple and straightforward process, however
+there can be a few pitfalls that are easy to fall into if you've never done
+anything like this before.
+
+The general rule of thumb is that you want to start with smaller components and
+slowly make your way towards the bigger components, but placement can also play
+a role in this.
+
+I'll be detailing each step and in the order I recommend you do them in. If you
+feel like a particular component is giving you trouble, try soldering it on
+earlier, that way you have more space to do the operation in.
+
+#### Switch
+
+The switch is sadly the only component on the PCB I couldn't supersize. As a
+result, it's probably the one that requires the most accuracy.
+
+Start by putting a tiny blob of solder on one of the side mounting pads, and
+then, while remelting the blob, put the component in place. This should secure
+it enough that you shouldn't need to worry about the switch moving while you
+work on the rest.
+
+Afterwards you should continue on the other side of the switch, soldering in the
+other mounting pins there, before moving back onto the one you've started on and
+finishing the job.
+
+Finally, solder in the three electrical pins.
+
+To-Do: Video about soldering the switch
+
+#### Resistors
+
+The resistors are so-called 1206 resistors. This means They are about
+0.12x0.06 inches, or 32x16 mm in size. This is considered fairly big in terms
+of electronics, and it's quite simple to solder them in.
+
+First, put a solder blob onto one pad of the resistor, then, while remelting it,
+gently place the resistor between the two pads. Once that's done, just solder in
+the other pad, and you should be done.
+
+To-Do: Include video of soldering the resistors
+
+#### Diodes
+
+Now onto the last "small" component. The diodes have one of the larger form
+factors available for surface mount soldering. They are very similar in
+technique to the resistors.
+
+Firstly, orientation is important. Notice, how the diodes' pads have an
+incomplete rectangle around them. If you look carefully on the diode itself, it
+should have a few lines on one side. Make sure these lines are on the same side
+as the complete side of the rectangle.
+
+First put solder on one pad, then while remelting it, place the diode in between
+the two pads, then solder in the other pad.
+
+To-Do: Include video of soldering the diodes
+
+#### TP4056
+
+This is where the fun part begins. To keep the end result as thin as possible, I
+opted to not use through holes when mounting the large modules in place. This
+makes it more of a challenge to solder them in place.
+
+One technique that works well, even if it's a bit unorthodox is cutting off the
+corners of the charging module with flush cutters, giving you DIY castellations
+(half circle pads that are made for soldering flush). Afterwards, you can just
+heat the center of the pad while feeding it with solder wire, and eventually it
+should spread towards the TP4056's pads, connecting it to the PCB.
+
+If you don't want to, or can't cut the corners off, you can still solder the
+module in place by just putting a lot of solder into the hole, but I recommend
+checking the end result with a multimeter, if you do so.
+
+For the best result, make sure you align the edge of the charging module with
+the edge of the PCB, so the charging cable can make a good connection to it.
+
+To-Do: Include video of soldering the TP4056
+
+#### Supermini ESP32C3
+
+The brain of the entire tracker is fairly simple to solder, since it was made to
+be mounted on PCBs like this, hence the castellations on the side.
+
+First, put a blob of solder on one of the pads, and place the module into its
+rectangle while remelting the joint. This probably won't result in a very strong
+connection, but it will be enough to not have to worry about it while you do the
+rest. Ideally you should then solder a pin that's further away from the one
+you've just soldered to give it more stability. Then go through one by one,
+soldering in all the joints. A good connection should make a small bridge
+from the PCB's pad onto the side of the Supermini. I recommend going over the
+original joint you've made also, just so it's secure enough.
+
+To-Do: Include video of soldering the Supermini
+
+### Soldering the IMU
+
+The IMU is a special challenge on this board. I tried to make sure that it's as
+easy as possible to get it mounted on the PCB, but it's still not simple. There
+are several methods to go about it, which will depend on what IMU you have and
+what you are willing to do with it. I'll try to list them in the order of simple
+to difficult.
+
+To-Do: Include videos of all three methods
+
+#### Getting IMUs with castellations
+
+[Meia's store](https://store.kouno.xyz/) sells BMI270 modules that are made with
+castellations on them. These are ideal for this PCB, since those are
+specifically designed for this purpose.
+
+#### Making DIY castellations
+
+This is the same idea as with the TP4056 module. Just go through the side with
+the 7 pins, and cut them in half one by one. I recommend first making a cut from
+the side of the hole towards the center on the longer side, and then cutting it
+off from the side. This way you have enough space to make the rest of the cuts
+also.
+
+Afterwards it's the exact same method as for the Supermini, just go through each
+pin and put on enough solder until a small bridge forms from the PCB to the IMU.
+
+#### Filling the holes with solder
+
+This strategy I can't recommend, because it's very hit or miss. But, if you put
+enough solder into each hole, theoretically it should result in a solid
+connection eventually. The problem with this method is that you can't really see
+the joint, so you don't know if it's even there or not.
+
+First start by putting a blob of solder onto one pad and placing the IMU into
+the rectangle while remelting it. This should keep it in place while you work on
+the rest.
+
+For the remaining pins, heat the ring around the pad and just push in the solder
+wire, until a visible blob forms at the top. To make it more likely that a joint
+is formed, you can put solder on the side of the pad that comes out from under
+the IMU, and then quickly move between the blob at the top and the solder on the
+side. This gives it a better chance at connecting the two.
+
+If you have a multimeter, it's recommended that you check the connections, once
+you are done, so you know if they are well-made or not.
+
+### Soldering with a hotplate
+
+The easiest and quickest way to solder the PCB is using solder paste and a
+hotplate. Although they are not expensive, these are generally unnecessary
+expenses on top of the other tools you already have, but if you need to solder a
+lot of these together, it might just be worth it.
+
+If you are looking for an inexpensive hotplate, I can recommend [this one](https://www.aliexpress.com/item/1005005549693756.html)
+(select the one labeled "Type1"). It's relatively small, only enough to solder
+one of these at a time, but for $20, it does its job well. You will need a
+USB-C charger for it that can deliver 65W (most modern laptop chargers can
+achieve this).
+
+As for paste, almost any will do, though my recommendation is [this 138C
+paste](https://www.aliexpress.com/item/1005004333086374.html) containing bismuth,
+since at those temperatures, it's unlikely that the modules on the PCB will be
+affected.
+
+The method is as simple as putting small blobs of solder paste onto the pads,
+and then heating the hotplate 10-15 C above the melting temperature of the paste
+while the board is on top of it. For the modules with rows of pins on the sides,
+you can just draw a line across them.
+
+This gives probably the cleanest results out of the bunch, and it works without
+having to first mutilate the modules by cutting pieces off of them.
 
 ## Flashing
 
-To-Do
+For flashing use [the online firmware flasher tool made by Butterscotch]. There
+will be a few changes you need to make to the defaults for it to work properly.
+
+For firmware version, when running with BMI160, choose the latest stable
+release. This will likely be the topmost one. At the time of writing, this is
+0.4.0. If you are using BMI270, you want to select the `l0ud/main` option, as
+this is the one that contains the necessary changes for the IMU to work.
+Similarly, for LSM6DSV, you want the `wigwagwent/lsm6dsv-with-bug-fix` option.
+
+For the board, you want to choose `BOARD_LOLIN_C3_MINI`.
+
+Open Advanced options, change SDA Pin to "6", SCL Pin to "7", and Led Pin to
+"8". The rest of the options should stay default.
+
+For primary and secondary IMU, select the one you have. The rotation value
+shouldn't matter if you use Automatic Mounting Calibration in the server.
+
+![The necessary changes to the main settings](./images/pin-settings.jpg)
+
+Now open up the Battery Sense section, select battery type as `BAT_EXTERNAL`,
+put "0" as the battery shield resistance, and 100 for both battery shield R1 and
+R2. Also change the battery sense pin to "1".
+
+> [!NOTE]
+> At this time the battery sense won't work quite correctly for this board
+> because of a bug. A fix for this issue is already in the works waiting to get
+> accepted.
+
+![The necessary changes to the battery settings](./images/battery-settings.jpg)
+
+Now open up the Wi-Fi settings section and input your **2.4GHz** Wi-Fi's
+credentials.
+
+After you've done this, make sure the Supermini is plugged in on your tracker
+into your PC, and press continue. You should be able to select it in the pop-up
+that appears at this point.
 
 ## Diagnosing problems
 
