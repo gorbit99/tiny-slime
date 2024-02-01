@@ -119,6 +119,11 @@ thinner, 0.5-0.6 mm in diameter. [This is what I generally use](https://www.alie
 You can go with leaded or lead-free, but make sure you have decent ventillation
 wherever you work.
 
+> [!CAUTION]
+> There are so-called "low temperature" solder rods. These are made for plumping
+> and are not usable for soldering electronics. If they specifically call out
+> that you can melt them with a lighter, those are also for that purpose, avoid!
+
 #### Tweezers (required)
 
 Some parts on this board are smaller than what most people are used to. To help
@@ -138,10 +143,22 @@ to use](https://www.aliexpress.com/item/1005005420936672.html), and it worked
 great for me.
 
 > [!CAUTION]
-> There are certain flux pastes that are made for plumbing. These are corrosive,
-> to help with the oxidization present on pipes. You can recognize these by
-> either reading the label, or often they look like grease (hence their other
-> name, soldering grease). Avoid these!
+> There are certain flux pastes that are, like the previously mentioned solder
+> rods, made for plumbing. These are corrosive, to help with the oxidization
+> present on pipes. You can recognize these by either reading the label, or
+> often they look like grease (hence their other name, soldering grease). Avoid
+> these!
+
+#### Some kind of soldering sponge (recommended)
+
+When soldering, often there will be a build up of molten solder on your
+soldering iron. To get it off, you can use a damp soldering sponge, or a brass
+sponge. The former is quite a bit cheaper, you can get [5 or 10 for less than a
+dollar](https://www.aliexpress.com/item/1005005601077918.html), though it will
+theoretically damage your soldering tip a tiny bit more than the other option.
+[The other option](https://www.aliexpress.com/item/1005005256184789.html) is
+more expensive, but avoids this slight damage a bit better and are generally a
+bit quicker to use.
 
 #### Desoldering wick (recommended)
 
@@ -164,6 +181,17 @@ is what I'd go for.
 Some flush cutters are needed for some \*modifications\* that I recommend you
 make for an easier soldering process. [Something like this](https://www.aliexpress.com/item/1005005415704038.html).
 They are fairly easy to blunt out, so you might want to buy a couple.
+
+#### Multimeter (recommended)
+
+Multimeters can be used to check for connections, so you don't need to guess
+what the actual issue is. They are fairly useful even in one's day-to-day life
+(checking disposable batteries, checking wires in the wall, etc. etc.), so I
+recommend picking one up. If you do, make sure it has at the very least a
+continuity mode (usually denoted with a dot with waves coming out of it). This
+is the most necessary for checking if you have a bad connection. [Something like
+this](https://www.aliexpress.com/item/1005006195161900.html) will certainly
+work, but they are also fairly cheap to buy in your local hardware store.
 
 #### PCB cleaning fluid (optional)
 
