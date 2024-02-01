@@ -380,6 +380,12 @@ having to first mutilate the modules by cutting pieces off of them.
 For flashing use [the online firmware flasher tool made by Butterscotch]. There
 will be a few changes you need to make to the defaults for it to work properly.
 
+> [!TIP]
+> Don't want to go through the hassle? [Here's a link](https://slimevr-firmware.bscotch.ca/?config=eyJib2FyZCI6eyJ0eXBlIjoiQk9BUkRfTE9MSU5fQzNfTUlOSSIsInBpbnMiOnsiaW11U0RBIjoiNiIsImltdVNDTCI6IjciLCJsZWQiOiI4In0sImxlZEludmVydGVkIjp0cnVlLCJlbmFibGVMZWQiOnRydWV9LCJpbXVzIjpbeyJ0eXBlIjoiSU1VX0JNSTE2MCIsInJvdGF0aW9uIjoyNzAsImltdUlOVCI6IjYiLCJlbmFibGVkIjp0cnVlfSx7InR5cGUiOiJJTVVfQk1JMTYwIiwicm90YXRpb24iOjI3MCwiaW11SU5UIjoiOCIsImVuYWJsZWQiOnRydWV9XSwiYmF0dGVyeSI6eyJ0eXBlIjoiQkFUX0VYVEVSTkFMIiwicmVzaXN0YW5jZSI6IjAiLCJyMSI6MTAwLCJyMiI6IjEwMCIsInBpbiI6IjEifSwic3dhcEFkZHJlc3NlcyI6ZmFsc2UsInZlcnNpb24iOiJTbGltZVZSL3YwLjQuMCJ9)
+> with most of the necessary changes already done, just change the firmware
+> version, IMU (if using anything other than a BMI160) and input your Wi-Fi
+> credentials.
+
 For firmware version, when running with BMI160, choose the latest stable
 release. This will likely be the topmost one. At the time of writing, this is
 0.4.0. If you are using BMI270, you want to select the `l0ud/main` option, as
