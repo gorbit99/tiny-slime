@@ -25,7 +25,7 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 | ------------------------------------- | ----: | --------------------------------------------------------------------- |
 | Tiny Slime PCB                        |     1 | JLCPCB                                                                |
 | Tiny Slime Case                       |     1 | Print Yourself                                                        |
-| Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)   |
+| Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)\*   |
 | BMI shaped IMU                               |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
 | Unprotected TP4056 <sup>1</sup>       |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)\* |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
