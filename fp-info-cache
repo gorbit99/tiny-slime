@@ -1,4 +1,4 @@
-23232238661856629
+23230535201634698
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51946,13 +51946,6 @@ Battery_Pads
 0
 2
 2
-Custom_Parts
-Small_TP4056
-
-
-0
-0
-0
 Custom_Parts
 SuperMini_ESP32C3
 

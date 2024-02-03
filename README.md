@@ -25,9 +25,9 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 | ------------------------------------- | ----: | --------------------------------------------------------------------- |
 | Tiny Slime PCB                        |     1 | JLCPCB                                                                |
 | Tiny Slime Case                       |     1 | Print Yourself                                                        |
-| Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)\*   |
-| BMI shaped IMU                               |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
-| Unprotected TP4056 <sup>1</sup>       |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)\* |
+| Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)\* |
+| BMI shaped IMU                        |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
+| Unprotected USB-C TP4056 <sup>1</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)\* |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
 | SS34 diode                            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
 | 1206 100k Ω resistor                  |     2 | [AliExpress](https://www.aliexpress.com/item/1005006358156511.html)\* |
@@ -426,4 +426,43 @@ To-Do
 
 ## Case
 
-To-Do
+![3D render of the case](./images/case-render.jpg)
+
+The case is made up of 3 parts, a bottom, a top and a switch extender. These
+were designed to not require any support, or brim when printing them, though
+some mouse ears can help, if you experience warping around the strap loops.
+
+#### Printing
+
+The ideal orientation of the parts is the following:
+
+![The ideal orientation of the parts when
+printing](./images/ideal-orientation.jpg)
+
+I recommend printing the switch at the very least separately, since it's quite
+small, so slowing down the printing might help you get a more accurate print.
+
+The following print settings worked well for me, but feel free to experiment
+with them:
+
+- Layer height: 0.2 mm
+- Line width: 0.4 mm
+- Wall line count: 4
+- Infill pattern: Cubic\*
+- Infill density: 10%\*
+- Supports: off
+- Build plate adhesion: none
+
+\*: There's barely any parts of the case that are thick enough to require
+infill, so don't stress about this much.
+
+#### Assembly
+
+To-Do: include a video of the assembly process
+
+After printing, first slide the USB-C ports into the corresponding holes at an
+angle and then push the other end of the battery and PCB into the case.
+Afterwards take the printed switch extender and slide it onto the switch on the
+PCB. Finally, snap the lid on. If you can't easily to this last step, try first
+aligning one side of the lid into the corresponding holes and then rotate it
+into place, snapping the holders in as they meet the edge.
