@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is currently experimental. While unlikely, changes in the parts, the PCB and the case could happen. Proceed with it at your own caution!
+
 # Tiny Slime
 
 Tiny Slime aims to make the smallest possible SlimeVR trackers out of cheap and
