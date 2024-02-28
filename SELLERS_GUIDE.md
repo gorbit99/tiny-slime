@@ -24,7 +24,7 @@ Tiny-Slimes have some drawbacks that you should make your buyers aware of.
 
 First and foremost, the antenna included on the Supermini module is way weaker
 than that of a D1 Mini or similar microcontroller. As such, **these do not work
-well, if your router is in a different room**. Soon there will likely be a dongle o
+well, if your router is in a different room**. Soon there will likely be a dongle
 you can use alongside them to essentially sidestep this issue, but even that
 will require a custom build of the server, custom firmware, and of course, the
 dongle itself. Once these are available, I'd generally recommend selling dongles
