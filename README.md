@@ -419,9 +419,16 @@ R2. Also change the battery sense pin to "1".
 Now open up the Wi-Fi settings section and input your **2.4GHz** Wi-Fi's
 credentials.
 
-After you've done this, make sure the Supermini is plugged in on your tracker
-into your PC, and press continue. You should be able to select it in the pop-up
-that appears at this point.
+After you've done this, it's time to plug in the Supermini. To make sure it's flashable,
+first double check that it's turned off, then hold down the left button on it labeled 
+"BOOT", and while holding it down, plug it into your PC. Some units have some preflashed
+software on them, for example it might blink the LED on-board. If it starts doing that,
+that means you didn't do the previous step properly, try again.
+
+After flashing you need to manually reset the Supermini. This can be done by either hitting
+the reset button (the one on the right labeled "RST") or by just unplugging it and powering
+it on. If everything went well and your SlimeVR server is turned on, it should be able to
+connect and appear in there.
 
 ## Diagnosing problems
 
