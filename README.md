@@ -22,6 +22,8 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 - [Diagnosing problems](#diagnosing-problems)
 - [Case](#case)
 
+- [Selling Guide](./SELLERS_GUIDE.md)
+
 ## BOM
 
 | Part                                  | Count | Source                                                                |
@@ -420,7 +422,7 @@ Now open up the Wi-Fi settings section and input your **2.4GHz** Wi-Fi's
 credentials.
 
 After you've done this, it's time to plug in the Supermini. To make sure it's flashable,
-first double check that it's turned off, then hold down the left button on it labeled 
+first double check that it's turned off, then hold down the left button on it labeled
 "BOOT", and while holding it down, plug it into your PC. Some units have some preflashed
 software on them, for example it might blink the LED on-board. If it starts doing that,
 that means you didn't do the previous step properly, try again.
