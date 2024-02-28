@@ -43,9 +43,9 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 
 \*: Link is multi-choice, pay careful attention to which you select
 
-2: For size reasons, the PCB uses specifically unprotected TP4056 modules.
+1: For size reasons, the PCB uses specifically unprotected TP4056 modules.
 
-3: Battery choice is a trade-off. The 804040 should give you 800 mAh more
+2: Battery choice is a trade-off. The 804040 should give you 800 mAh more
 capacity at the cost of 3 extra millimeters in height.
 
 Components, including straps cost about $11 per tracker shipped.
