@@ -380,7 +380,7 @@ having to first mutilate the modules by cutting pieces off of them.
 
 ## Flashing
 
-For flashing use [the online firmware flasher tool made by Butterscotch]. There
+For flashing use [the online firmware flasher tool made by Butterscotch](https://slimevr-firmware.bscotch.ca/). There
 will be a few changes you need to make to the defaults for it to work properly.
 
 > [!TIP]
