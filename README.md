@@ -120,7 +120,7 @@ look for it.
 If you have soldering wire that came with the iron you have, it's probably not
 great, but it should work in a pinch (I still recommend buying some if you can
 afford it). If you need to buy it new, it's probably worth looking for something
-thinner, 0.5-0.6 mm in diameter. [This is what I generally use](https://www.aliexpress.com/item/1005005621799262.html).
+thinner, 0.5-0.6 mm in diameter. [This is what I generally use](https://www.aliexpress.com/item/32824531083.html).
 You can go with leaded or lead-free, but make sure you have decent ventillation
 wherever you work.
 
