@@ -14,6 +14,7 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 
 ## Navigation
 
+- [Negatives](#negatives)
 - [BOM](#bom)
 - [PCB Ordering](#pcb-ordering)
 - [Tools](#tools)
@@ -23,6 +24,25 @@ loops end up being around 43x43x15.2 mm or 43x43x12.2 mm.
 - [Case](#case)
 
 - [Selling Guide](./SELLERS_GUIDE.md)
+
+## Negatives
+
+Tiny-slime does come with some caveats that make it not ideal in certain situations. I believe in being completely
+transparent about things, so I'll list those out here.
+
+#### Antenna performance
+
+This is the main compromise of using the Supermini modules. Their antenna quality is quite bad. If you are not in the same
+room as the router the trackers connect to, it quite likely won't work very well. This will hopefully be solvable
+by using a dongle for them (currently in the works), but for the time being I can't recommend this if your router is
+far away from your playspace.
+
+#### Alternative hardware
+
+The main difference that could cause issues is again, the Supermini. Since it's a different microcontroller than the one
+used in either the common DIY builds or the ones used in the official trackers, there's no guarantuee, that there won't
+be small issues that might take a bit of time to get solved. I'm using these myself and besides the battery readout
+not working on the stable releases at the time of writing, I haven't found a single other issue with them, but YMMV.
 
 ## BOM
 
