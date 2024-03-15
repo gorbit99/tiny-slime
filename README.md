@@ -381,8 +381,7 @@ hotplate. Although they are not expensive, these are generally unnecessary
 expenses on top of the other tools you already have, but if you need to solder a
 lot of these together, it might just be worth it.
 
-If you are looking for an inexpensive hotplate, I can recommend [this one](https://www.aliexpress.com/item/1005005549693756.html)
-(select the one labeled "Type1"). It's relatively small, only enough to solder
+If you are looking for an inexpensive hotplate, I can recommend [this one](https://www.aliexpress.com/item/1005006511425365.html). It's relatively small, only enough to solder
 one of these at a time, but for $20, it does its job well. You will need a
 USB-C charger for it that can deliver 65W (most modern laptop chargers can
 achieve this).
