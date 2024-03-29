@@ -141,11 +141,11 @@ If you have soldering wire that came with the iron you have, it's probably not
 great, but it should work in a pinch (I still recommend buying some if you can
 afford it). If you need to buy it new, it's probably worth looking for something
 thinner, 0.5-0.6 mm in diameter. [This is what I generally use](https://www.aliexpress.com/item/32824531083.html).
-You can go with leaded or lead-free, but make sure you have decent ventillation
+You can go with leaded or lead-free, but make sure you have decent ventilation
 wherever you work.
 
 > [!CAUTION]
-> There are so-called "low temperature" solder rods. These are made for plumping
+> There are so-called "low temperature" solder rods. These are made for plumbing
 > and are not usable for soldering electronics. If they specifically call out
 > that you can melt them with a lighter, those are also for that purpose, avoid!
 
