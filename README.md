@@ -51,7 +51,7 @@ not working on the stable releases at the time of writing, I haven't found a sin
 | Tiny Slime PCB                        |     1 | JLCPCB                                                                |
 | Tiny Slime Case                       |     1 | Print yourself or [order it from someone](https://discord.com/channels/817184208525983775/1176860516140978308)|
 | Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)\* |
-| BMI shaped IMU                        |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)      |
+| BMI shaped IMU                        |     1 | [AliExpress](https://www.aliexpress.com/item/4000052683444.html)  or [KOUNOLAB](https://store.kouno.xyz)    |
 | Unprotected USB-C TP4056 <sup>1</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)\* |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
 | SS34 diode                            |     2 | [AliExpress](https://www.aliexpress.com/item/1005002813143363.html)   |
