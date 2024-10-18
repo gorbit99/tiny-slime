@@ -487,6 +487,57 @@ with them:
 \*: There's barely any parts of the case that are thick enough to require
 infill, so don't stress about this much.
 
+## alternative Case
+
+![3D render of the alternative case](./images/alt-case-render.jpg)
+
+Here is a varation of the Tiny Slime cases. It is based on gorbit99's unreleased "Tiny Slimes Final".
+He changed the top part so it would incorporate the butten, eliminating the need to print the tiny part seperately.
+
+
+I somehow got 804040 with 1800mAh, which are in fact 8.6mm thick and should 
+therefore be labeled 864040... My case variation takes care of that.
+
+The tops have been made 0.8mm thicker and extended above the shell of the bottom,
+so you do not accidentely push them in too far. Its also easier to reopen the case.
+For the cute look i added the SlimeVR logo.
+
+The bottom part got size adjusted for the use of my thicker batteries. Its fine to reduce the 
+bottoms height by 0.5mm in your slicer for a standard 1500mAh 804040.
+
+I added a small notch to keep the PCB snapped when its placed down to the battery.
+
+optional: Support for AUX connector "BTL Edition"
+For using AUX connectors i use 2.54mm spaced pins and headers i got with the 
+ESP32. print aux-connector.stl for the little plug case. 
+
+Make sure to make them keyed:
+![picture of AUX connector](./images/aux-connector.jpg)
+
+Printing:
+
+Same printing advice as with the original case.  For the AUX connector and the 
+Tops, i suggest 0.15mm layers because of the tiny details in the overhangs.
+
+The Bottoms and Tops are available as AUX version and normal.
+
+If you go for a TinySlime without AUX, but maybe want to add AUX later,
+use an AUX Version for bottom and a AUX prepared top. This top closes the 
+gap for AUX connector but keeps you from having to change the bottom again later.
+
+The Bottoms SET uses two non-AUX trackers for knee (tigh) and five AUX versions
+for Chest + Hip, Ankles + Feets and Arms.
+
+I for example do use Trackers for the Arms (but no AUXs for now),a chest Tracker 
+with an AUX for my Hip and a pair of Ankle Trackers with AUX for feet.
+
+I needed 2 AUX prepared Tops, 3 AUX Tops, 2 non AUX Tops.
+
+
+If you have questions regarding the alternative case my AUX connector proposal, run 
+into a problem or want to suggest another modification, contact me on Discord @beetle060 .
+
+
 #### Assembly
 
 To-Do: include a video of the assembly process
