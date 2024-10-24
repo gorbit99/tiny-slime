@@ -50,7 +50,7 @@ not working on the stable releases at the time of writing, I haven't found a sin
 | ------------------------------------- | ----: | --------------------------------------------------------------------- |
 | Tiny Slime PCB                        |     1 | JLCPCB                                                                |
 | Tiny Slime Case                       |     1 | Print yourself or [order it from someone](https://discord.com/channels/817184208525983775/1176860516140978308)|
-| Supermini ESP32C3                     |     1 | [AliExpress](https://www.aliexpress.com/item/1005005877531694.html)\* |
+| Supermini ESP32C3  Plus                  |     1 | [AliExpress](https://www.aliexpress.com/item/1005007691422332.html)\* |
 | BMI shaped IMU                        |     1 | [KOUNOLAB](https://store.kouno.xyz)  or  [AliExpress](https://www.aliexpress.com/item/4000052683444.html)   |
 | Unprotected USB-C TP4056 <sup>1</sup> |     1 | [AliExpress](https://www.aliexpress.com/item/1005005468881238.html)\* |
 | PCM12 compatible switch               |     1 | [AliExpress](https://www.aliexpress.com/item/4000685483225.html)      |
@@ -71,6 +71,12 @@ not working on the stable releases at the time of writing, I haven't found a sin
 capacity at the cost of 3 extra millimeters in height.
 
 Components, including straps cost about $11 per tracker shipped.
+
+> [!WARNING]
+> There are several different Supermini ESP32-C3 variants out there. It's
+> generally not recommended to go for one that doesn't have an external antenna
+> socket because of bad antenna quality. Others have also had issues with the
+> "ESP32-C3 Pro" boards (blue ones) not working with the design at all.
 
 > [!TIP]
 > These links only act as examples. They will almost certainly not be the best
@@ -215,7 +221,7 @@ what the actual issue is. They are fairly useful even in one's day-to-day life
 recommend picking one up. If you do, make sure it has at the very least a
 continuity mode (usually denoted with a dot with waves coming out of it). This
 is the most necessary for checking if you have a bad connection. [Something like
-this](https://www.aliexpress.com/item/1005006195161900.html) will certainly
+this](https://de.aliexpress.com/item/1005002332835310.html) will certainly
 work, but they are also fairly cheap to buy in your local hardware store.
 
 #### PCB cleaning fluid (optional)
@@ -324,6 +330,15 @@ you've just soldered to give it more stability. Then go through one by one,
 soldering in all the joints. A good connection should make a small bridge
 from the PCB's pad onto the side of the Supermini. I recommend going over the
 original joint you've made also, just so it's secure enough.
+
+The Supermini will also need to be modified, so the external antenna actually works.
+First, remove the original antenna from the board (large square shaped thing at the
+bottom of the board). To do this, quickly alternate between the two sides of it,
+heating up the solder joints, until it comes off. Afterwards you need to connect
+the antenna socket. On the recommended Supermini's this is done by soldering the inner
+pad of the antenna we just removed to the small square pad next to it (there is a white line
+between the two). This is easiest to do by just heating up preferably both at the same time
+and adding solder until they connect.
 
 To-Do: Include video of soldering the Supermini
 
@@ -497,3 +512,8 @@ Afterwards take the printed switch extender and slide it onto the switch on the
 PCB. Finally, snap the lid on. If you can't easily to this last step, try first
 aligning one side of the lid into the corresponding holes and then rotate it
 into place, snapping the holders in as they meet the edge.
+
+Now it's time to plug in your antenna and place it somewhere. If you bought the
+recommended Supermini, you should have received one along with your order. This
+can be placed wherever you think it's best, for example you can stick it to the
+side of the case. 
